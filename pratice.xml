@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Restaurant>
+	<Dine-in>
+		<item name="Chicken Burger">
+		<type-1>with Cheese</type-1>
+		<type-2>without Cheese</type-2>
+		<price>80</price>
+		</item>
+
+		<item name="Sandwich">
+		<type-1>Veg</type-1>
+		<type-2>Non-veg</type-2>
+		<price>40</price>
+		</item>
+	</Dine-in>
+
+	<Takeaway>
+		<item name="Bread">
+		<type-1>Brown Bread</type-1>
+		<type-2>Whole Wheat Bread</type-2>
+		<price>40</price>
+		</item>
+	</Takeaway>
+
+</Restaurant>
