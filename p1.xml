@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Rosary-College>
+<department name="BCA">
+  <student>60</student>
+  <year>Third</year>
+  <fees>52000</fees>
+  <semester>5</semester>
+  <subjects>
+    <subject-1>Information Systems</subject-1>
+    <subject-2>Web Technology</subject-2>
+    <subject-3>Computer Animation</subject-3>
+    <subject-4>Mobile Application</subject-4>
+    <subject-5>Web Technology Lab</subject-5>
+  </subjects>
+</department>  
+<department name="BBA">
+  <student>60</student>
+  <year>Third</year>
+  <fees>62000</fees>
+  <semester>5</semester>
+  <subjects>
+    <subject-1>Information Systems</subject-1>
+    <subject-2>Web Technology</subject-2>
+    <subject-3>Computer Animation</subject-3>
+    <subject-4>Mobile Application</subject-4>
+    <subject-5>Web Technology Lab</subject-5>
+  </subjects>
+</department>  
+<department name="BBA T and T">
+  <student>60</student>
+  <year>Third</year>
+  <fees>62000</fees>
+  <semester>5</semester>
+  <subjects>
+    <subject-1>Information Systems</subject-1>
+    <subject-2>Web Technology</subject-2>
+    <subject-3>Computer Animation</subject-3>
+    <subject-4>Mobile Application</subject-4>
+    <subject-5>Web Technology Lab</subject-5>
+  </subjects>
+</department>  
+
+</Rosary-College>
