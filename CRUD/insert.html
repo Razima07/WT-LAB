@@ -1,0 +1,28 @@
+<html>
+<head>
+    <script>
+function validateForm(){
+    let a= document.forms["frm"]["txtnm"].value
+    let b= document.forms["frm"]["txtrn"].value
+
+    if (a == "") {
+    alert("Name must be filled out");
+    return false;
+    }
+
+    if (b == "") {
+    alert("Roll No must be filled");
+    return false;
+  }
+}
+    </script>
+
+</head>
+<body>
+<form name="frm" method="get" action="insert.php" onsubmit="return validateForm()">
+Name : <input type="text" name="txtnm"><br>
+Roll No : <input type="text" name="txtrn"><br>
+<input type="submit" name="btnsub">
+</form>
+</body>
+</html>
