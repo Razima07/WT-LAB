@@ -1,0 +1,46 @@
+install composer 
+
+
+once composer intallation is finished open command prompt
+and go to C:\xampp\htdocs
+using "cd C:\xampp\htdocs" and press enter key
+
+create a laravel project with a file name
+composer create-project laravel/laravel dummy10
+
+after installation is complete
+cd dummy12
+
+type in command
+php artisan serve
+
+open browser type in the url  
+http://127.0.0.1:8000
+or
+http://localhost/dummy10/public/
+
+note: start xampp => apache
+
+
+
+create a database dummy10
+open project folder dummy10 under sublime editor
+
+edit .env file under vendor
+change database name
+db_database=dummy10
+goto   app=>providers=> appserviceproviders.php
+
+add code 
+use Illuminate\support\Facades\Schema;
+Schema::defaultstringLength(191);
+
+
+under command prompt
+composer require laravel/jetstream
+php artisan jetstream:install livewire
+
+npm install 
+npm run dev
+php artisan migrate
+php artisan serve
